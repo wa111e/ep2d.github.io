@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск вопросов и ответов</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Adding a link to the Montserrat font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="answer-display" class="answer"></div>
+    <div class="search-wrapper">
+
+        <input type="text" id="search" class="search" placeholder="Провод №/реле/контактор">
+        <div class="clear-input" onclick="clearInput()">&#10005;</div>
+    </div>
+    <div id="input-label">created by @wall1e</div>
+    <!-- Including the Awesomplete library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.2/awesomplete.min.js" defer></script>
+    <!-- Including our script -->
+    <script src="script.js" defer></script>
+</body>
+</html>
